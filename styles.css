@@ -1,0 +1,53 @@
+.container{
+    max-width:900px;
+}
+#principal-img{
+    width: 500px;
+    animation: float 7s linear infinite;
+}
+img{
+    width: 450px;
+}
+
+
+
+
+@keyframes float{
+    50%, 100%{
+        transform: translateY(0rem)
+    }
+    50%{
+        transform: translateY(1.5rem)
+    }
+}
+
+@media screen and (max-width: 377px){
+    #principal-img{
+        width: 2500px;
+        margin-top: 80px;
+        animation: float 7s linear infinite;
+    }
+    img{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 768px){
+    #principal-img{
+        width: 280px;
+        margin-top: 80px;
+        animation: float 7s linear infinite;
+    }
+    img{
+        width: 280px;
+    }
+}
+@media screen and (max-width: 992px){
+    #principal-img{
+        width: 400px;
+        margin-top: 80px;
+        animation: float 7s linear infinite;
+    }
+    img{
+        width: 280px;
+    }
+}
